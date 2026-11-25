@@ -54,6 +54,8 @@
   #define BOARD_NAME "TTGO T-Display + MCP2515"
 #elif defined(BOARD_WAVESHARE_S3)
   #define BOARD_NAME "Waveshare ESP32-S3-RS485-CAN"
+#elif defined(BOARD_ESP32_S3_GENERIC)
+  #define BOARD_NAME "ESP32-S3 DevKit + SN65HVD230 module"
 #elif defined(BOARD_M5STACK_ATOM_MATRIX)
   #define BOARD_NAME "M5Stack ATOM Matrix + ATOMIC CAN Base"
 #elif defined(BOARD_M5STACK_ATOM)
